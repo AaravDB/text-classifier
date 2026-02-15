@@ -1,10 +1,5 @@
-# src/save_load.py
-
 import pickle
 import os
-
-
-
 
 def save_model(model, filename):
     """

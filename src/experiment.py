@@ -1,6 +1,5 @@
 import pandas as pd
 import os
-# src/experiment.py
 from src.save_load import save_model
 """
 Runs all experiments:
@@ -14,7 +13,6 @@ Models:
 - Logistic Regression
 - SVM
 
-Outputs performance metrics for each combination.
 """
 
 from sklearn.model_selection import train_test_split

@@ -1,9 +1,3 @@
-# src/train.py
-
-"""
-Handles model training only.
-"""
-
 
 def train_model(model, X_train, y_train):
     """

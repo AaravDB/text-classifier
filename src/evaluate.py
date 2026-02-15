@@ -1,9 +1,3 @@
-# src/evaluate.py
-
-"""
-Handles model evaluation.
-"""
-
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 
 

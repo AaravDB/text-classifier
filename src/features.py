@@ -1,13 +1,4 @@
-# src/features.py
 
-"""
-Feature extraction implemented from scratch:
-
-1. Bag of Words
-2. TF-IDF
-
-No sklearn vectorizers used.
-"""
 
 import numpy as np
 import re

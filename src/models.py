@@ -1,11 +1,7 @@
-# src/models.py
-
 """
 Defines all machine learning models used in the project.
-
 Each function returns an untrained model instance.
 """
-
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.linear_model import LogisticRegression
 from sklearn.svm import LinearSVC

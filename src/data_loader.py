@@ -1,7 +1,4 @@
-# src/data_loader.py
-
 import pandas as pd
-
 
 def load_data(filepath):
     """
@@ -16,7 +13,7 @@ def load_data(filepath):
         labels (list): list of numeric labels (0 = Sports, 1 = Politics)
     """
 
-    # Load JSON dataset (HuffPost format uses lines=True)
+   
     df = pd.read_json(filepath, lines=True)
 
     print("Original dataset size:", len(df))
